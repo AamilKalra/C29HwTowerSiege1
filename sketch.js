@@ -53,9 +53,9 @@ function setup() {
   base1 = new Ground(775,350,350,15);
 
   
-  ball = new Paper(200,400,20);
+  ball = new Paper(150,3400,20);
   
-  chain = new SlingShot(ball.body,{x:200,y:400})
+  chain = new SlingShot(ball.body,{x:150,y:340})
   
   
 }
